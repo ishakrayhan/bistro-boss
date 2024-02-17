@@ -9,15 +9,15 @@ import { Helmet } from 'react-helmet-async';
 const Home = () => {
     return (
         <div>
-              <Helmet>
-        <title>Bistro | Home</title>
-       
-      </Helmet>
-           <Bannar></Bannar>
-           <Category></Category>
-           <PopularManu></PopularManu>
-           <Featured></Featured>
-           <Testimoniyals></Testimoniyals>
+            <Helmet>
+                <title>Bistro | Home</title>
+
+            </Helmet>
+            <Bannar></Bannar>
+            <Category></Category>
+            <PopularManu></PopularManu>
+            <Featured></Featured>
+            <Testimoniyals></Testimoniyals>
         </div>
     );
 };
