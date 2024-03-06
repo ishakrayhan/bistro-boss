@@ -19,8 +19,9 @@ const Navbar = () => {
     <li><Link to="/dashboard/mycart">
       <button className="btn gap-2">
       
-      <div className="badge badge-secondary "> 
-       <FaShoppingCart></FaShoppingCart> +{cart?.length || 0} </div> 
+     
+       <FaShoppingCart></FaShoppingCart>
+       <div className="badge badge-secondary ">  +{cart?.length || 0} </div> 
       </button>
       </Link>
       </li>
